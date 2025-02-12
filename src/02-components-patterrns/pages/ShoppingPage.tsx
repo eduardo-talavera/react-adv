@@ -41,7 +41,7 @@ export const ShoppingPage = () => {
 
           <ProductCard product={product} style={{ backgroundColor: '#70D1F8' }} > 
               <ProductImage style={{ boxShadow: '10px 10px 10px rgba(0,0,0,0.2)' }} />
-              <ProductTitle style={{ fontWeight: 'bold' }} />
+              <ProductTitle style={{ fontWeight: 'bold', paddingLeft: '5px' }} />
               <ProductButtons style={{ display: 'flex', justifyContent: 'center' }} />
           </ProductCard>
       </div>
